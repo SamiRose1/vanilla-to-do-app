@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  min-height: 90vh;
+  background: linear-gradient(
+    rgba(250, 240, 230, 0.868),
+    rgba(224, 255, 255, 0.742)
+  );
+
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-field {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid salmon;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.list {
+  word-break: break-all;
+  width: 500px;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+#inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* width: 500px; */
+  justify-content: center;
+}
+
+#inputs button {
+  width: 60px;
+  margin: 5px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+#inputs button:hover {
+  cursor: pointer;
+  width: 62px;
+  transition: 0.2s;
+  box-shadow: 2px 2px 2px aqua;
+}
+.divContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  max-width: 400px;
+  height: fit-content;
+  min-width: 75%;
+
+  margin: 0% auto;
+}
+
+.doneBtn {
+  background-color: lightskyblue;
+}
+.deleteBtn {
+  background-color: lightcoral;
+}
+.topHeader {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  background: linear-gradient(
+    rgba(173, 216, 230, 0.692),
+    rgba(255, 182, 193, 0.653)
+  );
+  font-size: 30px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(173, 216, 230, 0.692),
+    rgba(255, 182, 193, 0.653)
+  );
+}
+.counter {
+  border: 1px solid salmon;
+  background-color: salmon;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px;
+  margin: 0% auto;
+}
+.addBtn {
+  padding: 10px;
+  border-style: none;
+  background: linear-gradient(
+    rgba(255, 182, 193, 0.81),
+    rgba(173, 216, 230, 0.81)
+  );
+  border-radius: 8px;
+  font-size: 15px;
+}
+.addBtn:hover {
+  cursor: pointer;
+}
